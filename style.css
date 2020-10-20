@@ -1,0 +1,259 @@
+/* ===============navbar style starts==========*/
+
+.navbarlistcontainer {
+    background-color: #F8F9FA;
+    width: auto;
+    height: 60px;
+    margin-top: 0;
+    margin-bottom: 10;
+    text-decoration: nones;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar {
+    margin: 0px;
+}
+
+.navbaritem {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    list-style: none;
+    opacity: 0.6;
+}
+
+.navbaritem:hover {
+    opacity: 1;
+}
+
+
+/* ===============navbar style ends================*/
+
+
+/* ===============courusel style starts==================*/
+
+.slides {
+    display: flex;
+    margin-top: 0;
+    justify-content: left;
+}
+
+.slideimg {
+    display: flex;
+    border-radius: 10px;
+    width: 90%;
+    margin: 10px 10px;
+}
+
+.vki-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px 50px 10px 0px;
+}
+
+#vki-form {
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+/* #vki-img {} */
+
+.vki-input {
+    margin: 5px 0px;
+    width: fit-content;
+    border: 3px solid #1CC6B2;
+    border-radius: 4px;
+    width: 107%
+}
+
+.vki-btn {
+    background-color: #1CC6B2;
+    border-radius: 4px;
+    border-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 200;
+    color: white;
+    margin-top: 10px;
+    width: 113%;
+}
+
+
+/*=========programs style starts==================================*/
+
+.program-container {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    justify-content: center;
+    background-color: #f0f0f0;
+    background-size: cover;
+}
+
+.photo {
+    width: 400px;
+    height: 240px;
+    margin: 31px 10px;
+}
+
+.photo:hover {
+    opacity: 0.3;
+}
+
+.progbox {
+    display: flex;
+    justify-content: center;
+}
+
+#prog-info {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+
+/*=========programs ends==========================*/
+
+
+/*=========testimonials starts======*/
+
+.testimonial {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    margin: 15px;
+    flex-direction: column;
+    background-color: #F9F9F9;
+    box-shadow: 3px 3px 3px 3px rgb(221, 216, 216);
+    box-shadow: rgb(235, 235, 224);
+    border-radius: 10px;
+}
+
+.cards:hover {
+    transform: scale(1.02);
+    transition: all ease-in-out;
+}
+
+.cards p {
+    text-align: justify;
+    margin: 0px 10px;
+    font-size: medium;
+    font-family: ubuntu, sans-serif;
+    font-weight: 300;
+    color: #5a5353;
+}
+
+.cards h3 {
+    margin: 0px;
+    color: #3a3636;
+}
+
+.cards h4 {
+    margin: 0px 0px 10px 0px;
+    color: # color: #3a3636;
+    ;
+}
+
+.tesimg {
+    display: flex;
+    width: 20%;
+    margin: 10px;
+    border-radius: 100px;
+    background-color: antiquewhite;
+}
+
+.tespara {
+    white-space: pre-wrap;
+}
+
+
+/* ===============footer style starts==========*/
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(218, 216, 216);
+    margin-top: 0%;
+}
+
+#address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#ifame {
+    display: flex;
+}
+
+.footcontent {
+    height: 150px;
+    width: 400px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Tangerine', serif;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    margin-left: 15%;
+}
+
+.smicon {
+    width: 30px;
+    height: 30px;
+    margin: 6px;
+    border-radius: 40px;
+}
+
+.addressicon {
+    width: 30px;
+    height: 30px;
+    margin: 6px;
+}
+
+.nokta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    gap: 3rem 2rem;
+    justify-items: center;
+}
+
+hr {
+    border-top: 2px solid#c47b59;
+    margin-bottom: 0%;
+}
